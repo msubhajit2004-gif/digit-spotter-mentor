@@ -77,14 +77,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "object detection" },
+      { name: "description", content: "Digit Detector Deluxe is a TensorFlow application for single-object detection, identifying handwritten digits and their locations." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "object detection" },
+      { property: "og:description", content: "Digit Detector Deluxe is a TensorFlow application for single-object detection, identifying handwritten digits and their locations." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "object detection" },
+      { name: "twitter:description", content: "Digit Detector Deluxe is a TensorFlow application for single-object detection, identifying handwritten digits and their locations." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/1c299c1e-9ea8-4cc1-a4c8-8cf44476ca39/id-preview-5ee94263--0282741f-08d3-4d20-b999-59ac5a352c2b.lovable.app-1785409241843.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/1c299c1e-9ea8-4cc1-a4c8-8cf44476ca39/id-preview-5ee94263--0282741f-08d3-4d20-b999-59ac5a352c2b.lovable.app-1785409241843.png" },
     ],
     links: [
       {
